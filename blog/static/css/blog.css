@@ -1,56 +1,22 @@
-/* Body padding */
-body {
-    padding-left: 15px;
-}
-
-/* Headers color and font */
-h1 a, h2 a {
+h1 a {
     color: #C25100;
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster';
 }
 
-/* Page header styling */
 .page-header {
-    background-color: #C25100;
+    background-color: #f5f5f5;
     margin-top: 0;
+    padding: 20px 0;
+}
+
+.post {
     margin-bottom: 40px;
-    padding: 20px 20px 20px 40px;
 }
 
-.page-header h1,
-.page-header h1 a,
-.page-header h1 a:visited,
-.page-header h1 a:active {
-    color: #ffffff;
-    font-size: 36pt;
-    text-decoration: none;
+.post h2 a {
+    color: #C25100;
 }
 
-/* Date styling */
 .date {
     color: #828282;
-}
-
-/* Blog post styling */
-.post {
-    margin-bottom: 70px;
-}
-
-.post h2 a,
-.post h2 a:visited {
-    color: #000000;
-}
-
-/* Buttons */
-.btn-secondary,
-.btn-secondary:visited {
-    color: #C25100;
-    background: none;
-    border-color: #C25100;
-    margin-left: 15px;
-}
-
-.btn-secondary:hover {
-    color: #FFFFFF;
-    background-color: #C25100;
 }
