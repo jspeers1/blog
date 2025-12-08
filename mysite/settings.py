@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-soxa*@tlnfp08v86=2_5q7*5n_of#twe*3j-7jamd^t*4%c^3%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['jspeers1.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'jspeers1.pythonanywhere.com']
+
 
 
 
